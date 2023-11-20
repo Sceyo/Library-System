@@ -1,0 +1,42 @@
+
+
+body {
+ 
+    margin: 0;
+    padding: 0;
+ 
+}
+.container {
+    width: 100%;
+    margin: 0;
+}
+.body1 {
+    margin-top: 0;
+    width: 100%;
+    margin-left: -115px;
+ 
+    height: 400px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.body1 h1{
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+ 
+    position: relative;
+    width: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+
+   
+}
+
+.separator {
+    border: 1px solid black; /* Black border */
+    width: 1000px; /* Adjust the width as needed */
+}
+
+.body2{
+  width: 100%;
+  display: flex;
+}
